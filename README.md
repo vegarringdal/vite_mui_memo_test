@@ -3,10 +3,19 @@ just to test if memo work with vitejs
 used this Mui x sample from docs:
 https://mui.com/x/react-data-grid/performance/
 
+* Live gh pages sample of build
+  * https://vegarringdal.github.io/vite_mui_memo_test/
+* how to run in dev mode: clone, then `npm i` & `npm start`
+* how to make new build: `npm run build`
+
 
 ===
 
-# react_vitejs_tailwind
+# Template info:
+
+===
+
+### react_vitejs_tailwind
 
 Simple as possible for new people - no eslint/testing etc
 
