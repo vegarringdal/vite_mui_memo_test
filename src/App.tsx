@@ -37,15 +37,15 @@ const slots = {
 export default function GridVisualization() {
   const { data } = useDemoData({
     dataSet: "Commodity",
-    rowLength: 100,
+    rowLength: 1000,
     editable: true,
-    maxColumns: 15,
+    maxColumns: 25,
   });
 
   return (
     <Box
       sx={{
-        height: 400,
+        height: 800,
         width: "100%",
         "&&& .updated": {
           transition: (theme) =>
