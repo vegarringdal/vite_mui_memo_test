@@ -34,9 +34,11 @@ const slots = {
   cell: CellWithTracer,
 };
 
-const data = customRender();
+const  data  = customRender(500);
 
 export function Sample2() {
+
+
   return (
     <Box
       sx={{

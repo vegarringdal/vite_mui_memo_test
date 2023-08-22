@@ -2,7 +2,7 @@ import * as React from "react";
 import { GridColDef, GridRenderCellParams } from "@mui/x-data-grid-pro";
 import { Button } from "@mui/material";
 
-export function customRender() {
+export function customRender(totalRows: number) {
   const columns: GridColDef[] = [
     {
       field: "date",
@@ -38,7 +38,7 @@ export function customRender() {
   ];
 
   let rows = [];
-  for (let i = 0; i < 1000; i++) {
+  for (let i = 0; i < totalRows; i++) {
     rows.push({ id: i, date: i + 2021, name: "person 2", age: i + 20 });
   }
 
